@@ -1,5 +1,7 @@
 <p><b>Lottery Smart Contract</b></p>
 
+<p><b>Contract Deployed (Rinkeby Network) - Address: 0x7cB67db9E05241b8Db580F12b017eF8a86afAfEE</b></p>
+
 <p>This contract consists of a prize pool (collection of ether) and players.</p>
 <p>Once a player has submitted money to the contract (prize pool) they will automatically be recorded as a player in the lottery. </p>
 <p>Once enough people have entered the contract, a third party manager will TELL THE CONTRACT to pick a winner from the players</p>
