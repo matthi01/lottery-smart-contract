@@ -1,4 +1,4 @@
-<p>Lottery Smart Contract</p>
+<p><b>Lottery Smart Contract</b></p>
 
 <p>This contract consists of a prize pool (collection of ether) and players.</p>
 <p>Once a player has submitted money to the contract (prize pool) they will automatically be recorded as a player in the lottery. </p>
@@ -20,3 +20,11 @@
     <li>enter</li>
     <li>pickWinner</li>
 </ul>
+
+<br />
+<br />
+
+<p>You don't have access to a random number function with solidity... <br />
+instead using the Current Block Difficulty, the Current Time, and Addresses Of Players, hashing them, and then using the 
+hex number to pick a player. <br />
+hex % players.length --> random number between 0 and players.length </p>
